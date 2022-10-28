@@ -1,0 +1,45 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    color:teal ;
+}
+#about_me{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+#about_me>.text{
+
+    margin-top: 100px;
+    width: 500px;
+}
+#about_me > .text h2{
+    color: teal;
+    font-size: 40px;
+}
+#about_me > .text p{
+    color:darkslategrey;
+    font-size: 18px;
+}
+
+#services{
+    margin-top: 75px;
+    margin-left: 100px;
+}
+.service h4{
+    color: darkslategray;
+    font-size: 35px;
+}
+.service ul{
+    list-style-type: square;
+    background-color: teal;
+    padding: 20px;
+}
+.service ul li{
+    background-color: lightgrey;
+    color: darkslategray;
+    padding: 10px;
+}
